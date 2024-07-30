@@ -1,5 +1,5 @@
 <h1>Linux Copy Pasta Bot (LCPB)</h1>
-<p>This bot will send the linux copy pasta everytime it sees the word "linux", it isn't case sensitive and will filter out the following letters:</p>
+<p>This bot will send the linux copy pasta everytime it sees the word "linux", it isn't case sensitive and will filter out the following characters:</p>
 <p>- _()*&$^!@#${}[]||\\.,<>?`+\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️</p>
 
 <h2>Setup</h2>
