@@ -1,5 +1,7 @@
 #include <dpp/dpp.h>
 #include "include/private.hpp"
+#include <iostream>
+#include <string>
 
 const std::string BOT_TOKEN = token;
 
@@ -20,7 +22,7 @@ int main()
 
       std::string msg = event.msg.content.data();
 
-      removeCharacters(msg, "- _()*&$^!@#${}[]||\\/.,<>?`+\"'~");
+      removeCharacters(msg, "- _()*&$^!@#${}[]||\\.,<>?`+\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️");
 
       std::transform(msg.begin(), msg.end(), msg.begin(), ::tolower); 
 
@@ -29,7 +31,10 @@ int main()
       } else if(msg.find("gnu/linux") != std::string::npos) {
          return;
       } else if (msg.find("linux") != std::string::npos) {
+         removeCharacters(msg, "/");
          event.reply(copy_pasta, true);
+      } else if (msg.find("loonux") != std::string::npos) {
+         event.reply(":middle_finger:", true);
       }
 
    });
