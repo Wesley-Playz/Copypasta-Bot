@@ -20,7 +20,7 @@ int main()
 
       std::string msg = event.msg.content.data();
 
-      removeCharacters(msg, "- _()*&$^!@#${}[]");
+      removeCharacters(msg, "- _()*&$^!@#${}[]||\\/.,<>?`+\"'~");
 
       std::transform(msg.begin(), msg.end(), msg.begin(), ::tolower); 
 
