@@ -19,6 +19,8 @@ int main()
 
       if (event.msg.content.find(copy_pasta) != std::string::npos) {
          return;
+      } else if(msg.find("gnu/linux") != std::string::npos) {
+         return;
       } else if (msg.find("linux") != std::string::npos) {
          event.reply(copy_pasta, true);
       }
