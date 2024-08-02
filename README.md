@@ -2,6 +2,8 @@
 <p>This bot will send the linux copy pasta everytime it sees the word "linux", it isn't case sensitive and will filter out the following characters:</p>
 <p>- _()*&$^!@#${}[]||\\.,<>?`+\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️</p>
 
+<h2><a href="https://discord.com/oauth2/authorize?client_id=1267638555254063236" target="_blank">Bot Invite</a></h2>
+
 <h2>Setup</h2>
 <p>One file that you must make is the private.hpp file, stored in src/include.private.hpp</p>
 <p>Add the following to the file</p>
