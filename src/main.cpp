@@ -35,6 +35,8 @@ int main()
          event.reply(copy_pasta, true);
       } else if (msg.find("loonux") != std::string::npos) {
          event.reply(":middle_finger:", true);
+      } else if (msg.find("gr") != std::string::npos) {
+         event.reply("https://tenor.com/view/how-bro-felt-after-writing-that-how-bro-felt-alpha-wolf-alpha-alpha-meme-gif-307456636039877895", true);
       }
 
    });
