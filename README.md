@@ -6,7 +6,7 @@
 <h2><a href="https://discord.com/oauth2/authorize?client_id=1267638555254063236" target="_blank">Bot Invite</a></h2>
 
 <h2>Setup</h2>
-<p>Edit the bot token in `secrets.json`.</p>
+Edit the bot token in `secrets.json`.
 <p>Then run `npm install discord.js` in the folder with the `bot.js` and `secrets.json` files.</p>
 <p>Then run `node bot.js` in the same folder. (I would recommend doing it in a screen session if you are running the bot on Linux).</p>
         
