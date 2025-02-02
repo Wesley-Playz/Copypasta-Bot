@@ -5,12 +5,9 @@
 <h2><a href="https://discord.com/oauth2/authorize?client_id=1267638555254063236" target="_blank">Bot Invite</a></h2>
 
 <h2>Setup</h2>
-<p>One file that you must make is the private.hpp file, stored in src/include/private.hpp</p>
-<p>Add the following to the file</p>
-
-    #include <iostream>
-    
-    const static std::string token = "your_token";
+<p>Edit the bot token in `secrets.json`.</p>
+<p>Then run `npm install discord.js` in the folder with the `bot.js` and `secrets.json` files.</p>
+<p>Then run `node bot.js` in the same folder. (I would recommend doing it in a screen session if you are running the bot on Linux).</p>
         
 
 <h2>Here is the copy pasta in all of its glory</h2>
