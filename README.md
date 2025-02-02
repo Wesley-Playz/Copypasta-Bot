@@ -1,6 +1,7 @@
 <h1>Linux Copy Pasta Bot (LCPB)</h1>
 <p>This bot will send the linux copy pasta everytime it sees the word "linux", it isn't case sensitive and will filter out the following characters:</p>
-<p>- _()*&$^!@#${}[]||\\.,<>?`+\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️</p>
+<p>This bot will also send gifs everytime you say certain words. (You can either look at the code to see them all, or have fun and wait for it to happen on it's own).</p>
+<p>-_()*&$^!@${}[]||\\.,<>?`\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️</p>
 
 <h2><a href="https://discord.com/oauth2/authorize?client_id=1267638555254063236" target="_blank">Bot Invite</a></h2>
 
