@@ -69,12 +69,12 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/c-sharp-gif-20933114");
     } else if (msg.includes("c++") || msg.includes("c plus plus") || msg.includes("cpp")) {
         message.reply("https://tenor.com/view/c-plus-plus-c-plus-plus-plus-plus-nerd-gif-27208235");
-    } else if (msg.includes("python") || msg.includes("py")) {
+    } else if (msg.includes("python")) {
         message.reply("https://tenor.com/view/do-not-run-python-python-computer-python-coding-coding-funny-coding-meme-gif-10365831290651691441");
     } else if (msg.includes("javascript") || msg.includes("js")) {
         message.reply("https://tenor.com/view/jinx-cat-javascript-js-jinx-gif-16689995327643035486");
         message.reply("https://tenor.com/view/learn-learning-javascript-learns-javascript-stupid-generator-programming-gif-26843752");
-    } else if (msg.includes("rust") || msg.includes("rs")) {
+    } else if (msg.includes("rust")) {
         message.reply("https://tenor.com/view/ferris-rust-rustlang-crab-cute-gif-26396486");
     } else if (msg.includes("html") || msg.includes("hypertext markup language")) {
         message.reply("https://tenor.com/view/html-peter-html-with-peter-monkey-monkey-typewriter-meme-gif-25254099");
@@ -84,6 +84,14 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/sql-gif-5106133080931365952");
     } else if (msg.includes("php")) {
         message.reply("https://tenor.com/view/he-was-forced-to-use-php-php-seal-gif-5490578701630315793");
+	} else if (msg.includes("raspberry pi") || msg.includes("rpi") || msg.includes("raspi")) {
+        message.reply("https://tenor.com/bblL8.gif");
+	} else if (msg.includes("dos") || msg.includes("ms-dos") || msg.includes("msdos") || msg.includes("disk operating system")) {
+        message.reply("https://tenor.com/bSJNN.gif");
+	} else if (msg.includes("freebsd")) {
+        message.reply("https://tenor.com/bEsjk.gif");
+	} else if (msg.includes("qubes")) {
+        message.reply("https://tenor.com/view/weird-al-crazy-wow-creepy-nuts-gif-5547782");
     }
 });
 
