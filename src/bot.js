@@ -46,7 +46,7 @@ client.on('messageCreate', message => {
         message.reply(copyPasta);
     } else if (msg.includes("loonux")) {
         message.reply(":middle_finger:");
-    } else if (msg === "mac") {
+    } else if (msg.includes("mac")) {
         message.reply("https://tenor.com/view/trash-can-gif-8489844925274334788");
         message.reply("https://tenor.com/view/mac-trash-gif-26503253");
     } else if (msg.includes("windows")) {
