@@ -56,7 +56,7 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/mac-trash-gif-26503253");
     } else if (msg.includes("windows")) {
         message.reply("https://tenor.com/view/eroor-gif-27634078");
-    } else if (msg.includes("android")) {
+    } else if (msg.includes("android") || msg.includes("apple")) {
         message.reply("https://tenor.com/view/android-apple-wipe-gif-8915661");
     } else if (msg.includes("arch")) {
         message.reply("https://tenor.com/view/i-use-arch-btw-use-arch-linux-fedora-gif-23272370");
