@@ -1,7 +1,7 @@
 <h1>Copy Pasta Bot 2.0 (LCPB2.0)</h1>
 <p>This bot will send gifs everytime you say certain words. (You can either look at the code to see them all, or have fun and wait for it to happen on it's own).</p>
 <p>This bot will also send a copypasta if you send the word Linux in any message.</p>
-<p>The bot will ignore the following symbols and characters.</p>
+<p>The bot will ignore the following symbols and characters:</p>
 <p>-_()*&$^!@${}[]||\\.,<>?`\"'~€ƒ‚„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›œžŸ¡¢£¤¥¦§¨©ª«¬®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþÿ⟴:ロ‼️⁉️™️ℹ️↔️↕️</p>
 
 <h2><a href="https://discord.com/oauth2/authorize?client_id=1335675632763404419" target="_blank">Bot Invite</a></h2>
