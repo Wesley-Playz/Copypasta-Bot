@@ -71,7 +71,7 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/c-plus-plus-c-plus-plus-plus-plus-nerd-gif-27208235");
     } else if (msg.includes("python")) {
         message.reply("https://tenor.com/view/do-not-run-python-python-computer-python-coding-coding-funny-coding-meme-gif-10365831290651691441");
-    } else if (msg.includes("javascript") || msg.includes("js")) {
+    } else if (msg.includes("javascript")) {
         message.reply("https://tenor.com/view/jinx-cat-javascript-js-jinx-gif-16689995327643035486");
         message.reply("https://tenor.com/view/learn-learning-javascript-learns-javascript-stupid-generator-programming-gif-26843752");
     } else if (msg.includes("rust")) {
@@ -92,6 +92,10 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/bEsjk.gif");
 	} else if (msg.includes("qubes")) {
         message.reply("https://tenor.com/view/weird-al-crazy-wow-creepy-nuts-gif-5547782");
+	} else if (msg.includes("typescript")) {
+        message.reply("https://tenor.com/view/typescript-death-glare-creepy-eyes-gif-23255310");
+	} else if (msg.includes("piracy") || msg.includes("pirate")) {
+		message.reply("https://tenor.com/view/pirate-piracy-you-are-a-pirate-lazytown-robbie-rotten-gif-15160380677926524721");
     }
 });
 
