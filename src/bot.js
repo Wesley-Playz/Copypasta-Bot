@@ -96,6 +96,12 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/typescript-death-glare-creepy-eyes-gif-23255310");
 	} else if (msg.includes("piracy") || msg.includes("pirate")) {
 		message.reply("https://tenor.com/view/pirate-piracy-you-are-a-pirate-lazytown-robbie-rotten-gif-15160380677926524721");
+    } else if (msg.includes("linus")) {
+        message.reply("https://tenor.com/view/python-linux-linus-torvalds-gif-27620467");
+    } else if (msg.includes("java")) {
+        message.reply("https://tenor.com/view/java-gif-26323674");
+    } else if (msg.includes("steve jobs")) {
+        message.reply("https://tenor.com/view/steve-jobs-steve-unemployed-gif-25511907");
     }
 });
 
