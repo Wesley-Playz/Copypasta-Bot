@@ -51,6 +51,8 @@ client.on('messageCreate', message => {
 		message.reply(tuxCopyPasta);
     } else if (msg.includes("loonux")) {
         message.reply(":middle_finger:");
+	} else if (msg.includes("hamachi")) {
+        message.reply("https://tenor.com/view/fire-eyes-elmo-hell-gif-13483060728962175532");
     } else if (msg.includes("mac")) {
         message.reply("https://tenor.com/view/trash-can-gif-8489844925274334788");
         message.reply("https://tenor.com/view/mac-trash-gif-26503253");
@@ -94,14 +96,23 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/weird-al-crazy-wow-creepy-nuts-gif-5547782");
 	} else if (msg.includes("typescript")) {
         message.reply("https://tenor.com/view/typescript-death-glare-creepy-eyes-gif-23255310");
-	} else if (msg.includes("piracy") || msg.includes("pirate")) {
+	} else if (msg.includes("piracy") || msg.includes("pirate") || msg.includes("emulator") || msg.includes("emulation") || msg.includes("emulated")) {
 		message.reply("https://tenor.com/view/pirate-piracy-you-are-a-pirate-lazytown-robbie-rotten-gif-15160380677926524721");
+		message.reply("https://tenor.com/view/nintendo-emulation-piracy-lawyers-better-call-saul-gif-26818864");
     } else if (msg.includes("linus")) {
         message.reply("https://tenor.com/view/python-linux-linus-torvalds-gif-27620467");
     } else if (msg.includes("java")) {
         message.reply("https://tenor.com/view/java-gif-26323674");
     } else if (msg.includes("steve jobs")) {
         message.reply("https://tenor.com/view/steve-jobs-steve-unemployed-gif-25511907");
+	} else if (msg.includes("loki") || msg.includes("low key") || msg.includes("lowkey") || msg.includes("lo key") || msg.includes("lokey")) {
+        message.reply("https://tenor.com/view/loki-tom-hiddleston-loki-odinson-prince-asgardian-gif-16216397");
+	} else if (msg.includes("nintondre")) {
+        message.reply("https://i.imgur.com/wMWp2P3.jpeg");
+	} else if (msg.includes("nintendo")) {
+        message.reply("https://tenor.com/view/nintendo-switch-take-my-money-handheld-console-gif-17835713");
+	} else if (msg.includes("bug")) {
+        message.reply("https://tenor.com/view/lightsaber-bug-spin-gif-20919535");
     }
 });
 
