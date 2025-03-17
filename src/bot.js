@@ -113,6 +113,19 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/nintendo-switch-take-my-money-handheld-console-gif-17835713");
 	} else if (msg.includes("bug")) {
         message.reply("https://tenor.com/view/lightsaber-bug-spin-gif-20919535");
+	} else if (msg.includes("botw")) {
+        message.reply("https://tenor.com/view/zelda-neco-gerudo-botw-link-gif-843622267785080036");
+	} else if (msg.includes("discord mod") || msg.includes("moderator")) {
+        message.reply("https://tenor.com/view/discord-monkey-discord-moderator-select-2020-gif-19647680");
+	} else if (msg.includes("unity")) {
+        message.reply("https://i.imgur.com/DJQJ3Pt.png");
+	} else if (msg.includes("premiere pro")) {
+        message.reply("https://tenor.com/view/spongebob-computer-fire-premiere-pro-adobe-gif-12394730211652409055");
+		message.reply("https://tenor.com/view/adobe-premiere-pro-crying-bathtub-clothed-gif-864537884625292966");
+	} else if (msg.includes("davinci") || msg.includes("davinci resolve")) {
+        message.reply("https://tenor.com/view/davinci-resolve-my-beloved-heart-locket-video-editing-sony-vegas-studio-gif-13868487280911871152");
+	} else if (msg.includes("iphone")) {
+        message.reply("https://tenor.com/view/bro-get-an-iphone-they-are-so-good-iphone-iphones-iphone-break-jerryrigeverything-gif-7633997654041015866");
     }
 });
 
