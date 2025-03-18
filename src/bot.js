@@ -126,6 +126,66 @@ client.on('messageCreate', message => {
         message.reply("https://tenor.com/view/davinci-resolve-my-beloved-heart-locket-video-editing-sony-vegas-studio-gif-13868487280911871152");
 	} else if (msg.includes("iphone")) {
         message.reply("https://tenor.com/view/bro-get-an-iphone-they-are-so-good-iphone-iphones-iphone-break-jerryrigeverything-gif-7633997654041015866");
+	} else if (msg.includes("intel")) {
+        message.reply("https://tenor.com/view/penguins-of-madagascar-rico-dancing-dance-dance-moves-gif-22963077");
+	} else if (msg.includes("cd")) {
+        message.reply("https://tenor.com/view/cd-glasses-flip-disk-gif-10758488");
+    } else if (msg.includes("usb")) {
+        message.reply("https://tenor.com/view/usb-apple-wrong-still-w-rong-gif-8637869");
+    } else if (msg.includes("gnu")) {
+        message.reply("https://tenor.com/view/linux-gnu-tux-gnu-linux-gif-14352651440430931634");
+    } else if (msg.includes("unreal") || msg.includes("unreal engine")) {
+        message.reply("https://tenor.com/view/unreal-unreal-engine-computer-smoking-computer-smoking-gif-24575019");
+    } else if (msg.includes("steam")) {
+        message.reply("https://tenor.com/view/steam-valve-steam-big-picture-mode-ifunny-ironic-ifunny-gif-caption-gif-21723787");
+    } else if (msg.includes("godot")) {
+        message.reply("https://tenor.com/view/godot-iconpng-godot-jumpscare-jumpscare-godot-engine-gif-26351339");
+    } else if (msg.includes("adobe")) {
+        message.reply("https://tenor.com/view/jazza-adobe-drawwithjazza-2bof-angry-gif-14326867");
+    } else if (msg.includes("visual studio")) {
+        message.reply("https://tenor.com/view/visual-studio-visual-pc-slow-studio-gif-15519368920339115237");
+    } else if (msg.includes("kde")) {
+        message.reply("https://tenor.com/view/kde-kde-plasma-headpats-linux-desktop-environment-gif-5613388506397505578");
+    } else if (msg.includes("chrome")) {
+        message.reply("https://tenor.com/view/google-chrome-pacman-eating-gif-13756279");
+		message.reply("https://tenor.com/view/dinosaur-kiss-chrome-dino-chrome-gif-17130067601694520988");
+    } else if (msg.includes("blender")) {
+        message.reply("https://tenor.com/view/blender-banana-smoothie-food-fail-fail-gif-14381891265409864362");
+    } else if (msg.includes("task manager")) {
+        message.reply("https://tenor.com/view/taskmanager-task-manager-acrobat-adobe-acrobat-update-gif-15214178820328980572");
+    } else if (msg.includes("manjaro")) {
+        message.reply("https://tenor.com/view/manjaro-manjaro-yes-manjaro-linux-yes-gif-14068816");
+		message.reply("https://tenor.com/view/manjaro-users-pc-when-they-gif-22374154");
+    } else if (msg.includes("kotlin")) {
+        message.reply("https://tenor.com/view/kotlin-java-programmer-meme-average-kotlin-enjoyer-average-java-fan-gif-21761248");
+    } else if (msg.includes("chatgpt")) {
+        message.reply("https://tenor.com/view/future-internet-computer-penguin-smart-gif-2609129379754675065");
+		message.reply("https://tenor.com/view/chatgpt-jarvis-iron-man-unsure-gif-758258540099951503");
+    } else if (msg.includes("docker")) {
+        message.reply("https://tenor.com/view/docker-pull-ubuntu-gif-26210830");
+	} else if (msg.includes("discord")) {
+        message.reply("https://tenor.com/view/x1-gif-11547806025027657358");
+		message.reply("Here's the link: https://discord.gg/VeccXh4ydN");
+	} else if (msg.includes("microsoft")) {
+        message.reply("https://tenor.com/view/fuck-microsoft-fuck-microsoft-john-malkovich-malkovich-gif-24980256");
+	} else if (msg.includes("google")) {
+        message.reply("https://tenor.com/view/muppet-kermit-the-frog-type-typing-type-writer-gif-10954656665750753801");
+	} else if (msg.includes("goggle")) {
+        message.reply("https://tenor.com/view/lets-get-googling-brandon-reed-welsh-corl-search-it-google-it-gif-17552978");
+	} else if (msg.includes("samsung")) {
+        message.reply("https://tenor.com/view/samsung-android-gif-26073785");
+	} else if (msg.includes("ltt") || msg.includes("tech tip") || msg.includes("tech")) {
+		message.reply("https://tenor.com/view/bruh-blank-stare-linus-tech-tips-linus-ltt-gif-25512543");
+    } else if (msg.includes("red hat")) {
+        message.reply("https://tenor.com/view/cat-cat-wearing-hat-puss-in-boots-red-hat-hat-gif-15309952569964088815");
+    } else if (msg.includes("distro")) {
+        message.reply("https://tenor.com/view/linux-users-linux-distro-linux-users-when-the-challenge-not-saying-their-distro-gif-24028646");
+    } else if (msg.includes("package")) {
+        message.reply("https://tenor.com/view/party-dance-spongebob-holiday-exercise-gif-7229227008034669728");
+	} else if (msg.includes("amd") || msg.includes("advanced micro devices")) {
+        message.reply("https://tenor.com/view/geforce-gif-26172654");
+	} else if (msg.includes("gentoo")) {
+        message.reply("https://tenor.com/view/linux-gentoo-computer-destroy-robot-gif-26277729");
     }
 });
 
