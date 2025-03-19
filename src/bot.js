@@ -187,9 +187,9 @@ client.on('messageCreate', message => {
 	} else if (msg.includes("gentoo")) {
         message.reply("https://tenor.com/view/linux-gentoo-computer-destroy-robot-gif-26277729");
 	} else if (msg.includes("dart")) {
-		messages.reply('https://cdn.discordapp.com/attachments/1335722948442456115/1351735114756784138/ezgif-489d30561b1ab4.gif?ex=67db74ed&is=67da236d&hm=82b83296d8d04611a002c31b167b048ac75132627725c4c09add6cd88d12c7ad&');
+		message.reply("https://cdn.discordapp.com/attachments/1335722948442456115/1351735114756784138/ezgif-489d30561b1ab4.gif?ex=67db74ed&is=67da236d&hm=82b83296d8d04611a002c31b167b048ac75132627725c4c09add6cd88d12c7ad&");
 	} else if (msg.includes("flutter")) {
-		message.includes("https://tenor.com/view/kamen-rider-ooo-kamen-rider-kamen-rider-flutter-flutter-gif-8090576274490458013");
+		message.reply("https://tenor.com/view/kamen-rider-ooo-kamen-rider-kamen-rider-flutter-flutter-gif-8090576274490458013");
     }
 });
 
