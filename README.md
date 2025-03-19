@@ -1,4 +1,4 @@
-<h1>Copypasta Bot 2.0 (LCPB2.0)</h1>
+<h1>Copypasta Bot 2.0 (CPB2.0)</h1>
 <p>This bot will send gifs (or words) everytime you say certain words. (You can either look at the code to see them all, or have fun and wait for it to happen on it's own).</p>
 <p>This bot will also send a copypasta if you send the word Linux in any message.</p>
 <p>The bot will ignore the following symbols and characters:</p>
