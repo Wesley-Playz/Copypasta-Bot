@@ -192,6 +192,14 @@ client.on('messageCreate', message => {
 		message.reply("https://tenor.com/view/kamen-rider-ooo-kamen-rider-kamen-rider-flutter-flutter-gif-8090576274490458013");
 	} else if (msg.includes("unix")) {
 		message.reply("https://i.imgur.com/UUbTylg.png");
+	} else if (msg.includes("beetle")) {
+		message.reply("https://i.imgur.com/Bvn8Fb6.png");
+	} else if (msg.includes("multiplayer")) {
+		message.reply("https://tenor.com/view/botw-botw-multiplayer-multiplayer-mod-meme-meme-multiplayer-mod-gif-6927297936411893453");
+	} else if (msg.includes("programmer") || msg.includes("programming")) {
+		message.reply("https://tenor.com/view/scaler-create-impact-god-programming-coding-gif-25011986");
+	} else if (msg.includes("switch")) {
+		message.reply("https://tenor.com/view/nintendo-nintendoswitch-gif-7211713165718956154");
     }
 });
 
