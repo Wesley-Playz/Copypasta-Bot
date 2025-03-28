@@ -28,10 +28,31 @@ client.on('messageCreate', message => {
         return;
     }
 	
+	// Check if '🛡️ Administrator' role is mentioned
+    if (message.mentions.roles.size > 0) {
+        const administratorRole = message.guild.roles.cache.find(role => role.name === "🛡️ Administrator");
+        if (administratorRole && message.mentions.roles.has(administratorRole.id)) {
+            message.reply("https://tenor.com/view/god-of-war-heimdall-thor-atreus-admin-ping-gif-27438038");
+            return;
+        }
+    }
+	
+	// Check if '🛡️ @Moderator' role is mentioned
+    if (message.mentions.roles.size > 0) {
+        const moderatorRole = message.guild.roles.cache.find(role => role.name === "🛡️ Moderator");
+        if (moderatorRole && message.mentions.roles.has(moderatorRole.id)) {
+            message.reply("https://tenor.com/view/moderator-gif-23608962");
+            return;
+        }
+    }
+	
+	// Check if @everyone is mentioned
 	if (message.mentions.everyone) {
         message.reply("https://tenor.com/view/discord-everyone-discord-everyone-ping-discord-ping-discord-notification-gif-18807244");
         return;
     }
+	
+	// Check if @user is mentioned
     if (message.mentions.users.size > 0) {
         message.reply("POV: The person(s) that got pinged");
 		message.reply("https://tenor.com/view/who-pinged-me-ping-discord-discord-ping-undertaker-gif-20399650");
